@@ -7,7 +7,7 @@ import { Logging } from './config/logging';
 import express from 'express';
 
 export class App {
-    public app;
+    public app: any;
     private _config: Config;
     private _logging: Logging;
     private _productRouter: ProductRouter;
